@@ -4,7 +4,7 @@ namespace AulaMarqueto.Controllers
 {
     public class ClienteController : Controller
     {
-        public IActionResult Index()
+        public IActionResult CadastroCliente()
         {
             return View();
         }
